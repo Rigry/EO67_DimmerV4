@@ -1,0 +1,19 @@
+// Поместите параметры в этот файл, чтобы перезаписать параметры по умолчанию и пользовательские параметры.
+{
+    // Compiler options for C (e.g. ["-std=c99"])
+    "clang.cflags": [
+        //пути авр
+        "-I/usr/avr/include", 
+        "-I/usr/lib/avr/include", 
+        "-I/usr/lib/gcc/avr/4.8.1/include", 
+        "-I/usr/lib/gcc/avr/4.8.1/include-fixed", 
+        "-I/usr/lib/avr/include/avr",
+        //пути проекта
+        "-I.",
+        "-I./Userlib/uart/",
+        "-I./Userlib/MBSlave/",
+        "-I./Userlib/eeprom/",
+        //задание микроконтроллера
+        "-D__AVR_ATmega8__"
+    ]
+}

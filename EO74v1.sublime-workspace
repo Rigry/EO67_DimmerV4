@@ -1,0 +1,368 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"se",
+				"set_FH(unsigned char addr, unsigned char value)\tvoid"
+			],
+			[
+				"st",
+				"stUART\tstruct UartBufSt"
+			],
+			[
+				"Ua",
+				"UARTNextByTrans"
+			],
+			[
+				"UA",
+				"UARTInit"
+			],
+			[
+				"set",
+				"set_FL"
+			],
+			[
+				"te",
+				"test1\t(macros.h)"
+			],
+			[
+				"EEPROM",
+				"EEPROMUpd\t(eeprom.h)"
+			],
+			[
+				"Set",
+				"SetBit"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "SublimeAVR",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Makefile/Make.sublime-build",
+					""
+				],
+				[
+					"Packages/Makefile/Make.sublime-build",
+					"Clean"
+				]
+			],
+			[
+				"Packages/Makefile/Make.sublime-build",
+				"Clean"
+			]
+		],
+		[
+			[
+				[
+					"Packages/Makefile/Make.sublime-build",
+					""
+				],
+				[
+					"Packages/Makefile/Make.sublime-build",
+					"Clean"
+				],
+				[
+					"Packages/C99/C99.sublime-build",
+					""
+				],
+				[
+					"Packages/C99/C99.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/Makefile/Make.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"SublimeAVR",
+					""
+				],
+				[
+					"SublimeAVR",
+					"Rebuild"
+				],
+				[
+					"SublimeAVR",
+					"Clean"
+				],
+				[
+					"SublimeAVR",
+					"Debug"
+				],
+				[
+					"SublimeAVR",
+					"Run"
+				]
+			],
+			[
+				"SublimeAVR",
+				"Run"
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 221.0,
+		"last_filter": "remo",
+		"selected_items":
+		[
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"",
+				"AVR: Create/Update Project"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 432.0
+	},
+	"console":
+	{
+		"height": 146.0,
+		"history":
+		[
+			"make clean"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/peltikhin/Документы/КД/Электрика Абрамовского/ЭО/ЭО-74 Плата ДУГv2 (динамического управления генераторами)/prog/EO74v1/main.c",
+		"/home/dvk/Работы/КД/Электрика Абрамовского/ЭО/ЭО-74 Плата ДУГv2 (динамического управления генераторами)/prog/EO74v1/uart/uart.h",
+		"/usr/lib/avr/include/util/crc16.h",
+		"/home/dvk/Работы/КД/Электрика Абрамовского/ЭО/ЭО-74 Плата ДУГv2 (динамического управления генераторами)/prog/EO74v1/MBSlave/MBSlave.h",
+		"/home/dvk/Работы/КД/Электрика Абрамовского/ЭО/ЭО-74 Плата ДУГv2 (динамического управления генераторами)/prog/EO74v1/eeprom/eeprom.h",
+		"/home/dvk/Работы/КД/Электрика Абрамовского/ЭО/ЭО-74 Плата ДУГv2 (динамического управления генераторами)/prog/EO74v1/eeprom/eeprom.c",
+		"/home/dvk/Работы/КД/Электрика Абрамовского/ЭО/ЭО-74 Плата ДУГv2 (динамического управления генераторами)/prog/EO74v1/SublimeAVR.sublime-project",
+		"/home/dvk/Работы/КД/Электрика Абрамовского/ЭО/ЭО-34 - Генератор AlexPulse v13 (сборка 1.0)/проги/AP13 controller -ST/AP13v05 - eeprom/eeprom/eeprom.c",
+		"/usr/lib/avr/include/avr/io.h",
+		"/home/dvk/Работы/КД/Электрика Абрамовского/ЭО/ЭО-34 - Генератор AlexPulse v13 (сборка 1.0)/проги/AP13 controller -ST/AP13v05 - eeprom/SublimeAVR.sublime-project",
+		"/home/dvk/.config/sublime-text-3/Packages/User/SublimeLinter.sublime-settings",
+		"/home/dvk/.config/sublime-text-3/Packages/Clang-Complete/makefile",
+		"/home/dvk/Работы/КД/Электрика Абрамовского/ЭО/ЭО-34 - Генератор AlexPulse v13 (сборка 1.0)/проги/AP13 controller -ST/AP13v05 - eeprom/macros.h",
+		"/home/dvk/Работы/КД/Электрика Абрамовского/ЭО/ЭО-34 - Генератор AlexPulse v13 (сборка 1.0)/проги/AP13 controller -ST/AP13v05 - eeprom/uart/uart.h",
+		"/home/dvk/Работы/КД/Электрика Абрамовского/ЭО/ЭО-34 - Генератор AlexPulse v13 (сборка 1.0)/проги/AP13 controller -ST/AP13v05 - eeprom/Makefile",
+		"/home/dvk/Работы/КД/Электрика Абрамовского/ЭО/ЭО-34 - Генератор AlexPulse v13 (сборка 1.0)/проги/AP13 controller -ST/AP13v05 - eeprom/eeprom/eeprom.h",
+		"/home/dvk/.config/sublime-text-3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/home/dvk/Работы/КД/Электрика Абрамовского/ЭО/ЭО-34 - Генератор AlexPulse v13 (сборка 1.0)/проги/AP13 controller -ST/AP13v05 - eeprom/printer_eeprom.eep",
+		"/home/dvk/Работы/КД/Электрика Абрамовского/ЭО/ЭО-34 - Генератор AlexPulse v13 (сборка 1.0)/проги/AP13 controller -ST/AP13v05 - eeprom/MBSlave/MBSlave.c",
+		"/home/dvk/Работы/КД/Электрика Абрамовского/ЭО/ЭО-34 - Генератор AlexPulse v13 (сборка 1.0)/проги/AP13 controller -ST/AP13v05 - eeprom/uart/uart.c",
+		"/home/dvk/Работы/КД/Электрика Абрамовского/ЭО/ЭО-34 - Генератор AlexPulse v13 (сборка 1.0)/проги/AP13 controller -ST/AP13v05/Makefile",
+		"/home/dvk/Работы/КД/Электрика Абрамовского/ЭО/ЭО-34 - Генератор AlexPulse v13 (сборка 1.0)/проги/AP13 controller -ST/AP13v05/SublimeAVR.sublime-project",
+		"/home/dvk/Работы/КД/ЭКО/main.c",
+		"/home/dvk/Работы/КД/ЭКО/controller/user/LCD.h",
+		"/home/dvk/Работы/КД/ЭКО/controller/user/LCD_4bit.c",
+		"/home/dvk/Работы/КД/ЭКО/controller/отладка.txt",
+		"/home/dvk/mnt/share/projects/ЭКО/01 Новотех-ЭКО Вологда/07 Конструкторская документация/0059 Контроллер v2/controller/user/main.c",
+		"/home/dvk/Работы/КД/Электрика Абрамовского/ЭО/ЭО-62 Плата датчиков (ЭКО)/ЭО62v1 (прога)/user/uart/uart.h",
+		"/home/dvk/Работы/КД/ЭКО/ЭО62v1 (прога)/user/main.c",
+		"/home/dvk/Работы/КД/Электрика Абрамовского/ЭО/ЭО-62 Плата датчиков (ЭКО)/ЭО62v1 (прога)/user/main.c",
+		"/home/dvk/Работы/КД/Электрика Абрамовского/ЭО/ЭО-34 - Генератор AlexPulse v13 (сборка 1.0)/проги/AP13 controller -ST/AP13c04-test/MBSlave/MBSlave.c",
+		"/home/dvk/Работы/КД/Электрика Абрамовского/ЭО/ЭО-62 Плата датчиков (ЭКО)/ЭО62v1 (прога)/user/MBSlave.h",
+		"/home/dvk/Работы/КД/ЭКО/controller/user/main.c",
+		"/home/dvk/mnt/share/projects/ЭКО/01 Новотех-ЭКО Вологда/07 Конструкторская документация/0059 Контроллер v2/expander/user/main.c",
+		"/home/dvk/Работы/КД/Электрика Абрамовского/ЭО/ЭО-34 - Генератор AlexPulse v13 (сборка 1.0)/проги/AP13 controller -ST/AP13c04-test/main.c",
+		"/home/dvk/Работы/КД/Электрика Абрамовского/ЭО/ЭО-34 - Генератор AlexPulse v13 (сборка 1.0)/проги/AP13 controller -ST/AP13c04-test/Makefile",
+		"/home/dvk/Работы/КД/Электрика Абрамовского/ЭО/ЭО-34 - Генератор AlexPulse v13 (сборка 1.0)/проги/AP13 controller -ST/AP13c04-test/SublimeAVR.sublime-project",
+		"/home/dvk/Работы/КД/Электрика Абрамовского/ЭО/ЭО-34 - Генератор AlexPulse v13 (сборка 1.0)/проги/AP13 controller -ST/AP13c04-test/uart/uart.c",
+		"/home/dvk/Работы/КД/ЭКО/FW_UF_TEMP_SENS с комментариями/user/main.c",
+		"/home/dvk/Работы/КД/Электрика Абрамовского/ЭО/ЭО-34 - Генератор AlexPulse v13 (сборка 1.0)/проги/AP13 controller -ST/AP13c04/macros.h",
+		"/home/dvk/Работы/КД/Электрика Абрамовского/ЭО/ЭО-34 - Генератор AlexPulse v13 (сборка 1.0)/проги/AP13 controller -ST/AP13c04/uart.c",
+		"/home/dvk/Работы/КД/ЭКО/tmpST/main.c",
+		"/home/dvk/Работы/КД/ЭКО/tmpKel2/CMSIS/CM3/DeviceSupport/ST/STM32F10x/system_stm32f10x.h",
+		"/home/dvk/Рабочий стол/Program.cs",
+		"/home/dvk/Работы/КД/Электрика Абрамовского/ЭО/ЭО-34 - Генератор AlexPulse v13 (сборка 1.0)/проги/AP13 controller -ST/AP13c03/macros.h",
+		"/home/dvk/Работы/КД/Электрика Абрамовского/ЭО/ЭО-34 - Генератор AlexPulse v13 (сборка 1.0)/проги/AP13 controller -ST/AP13c03/a.hex",
+		"/home/dvk/Работы/КД/Электрика Абрамовского/ЭО/ЭО-34 - Генератор AlexPulse v13 (сборка 1.0)/проги/AP13 controller -ST/AP13c03/uart.h",
+		"/home/dvk/Работы/КД/Электрика Абрамовского/ЭО/ЭО-34 - Генератор AlexPulse v13 (сборка 1.0)/проги/AP13 controller -ST/AP13c03/uart.c",
+		"/home/dvk/Работы/КД/Электрика Абрамовского/ЭО/ЭО-34 - Генератор AlexPulse v13 (сборка 1.0)/проги/AP13 controller -ST/AP13c03/main.c",
+		"/home/dvk/Работы/КД/Электрика Абрамовского/ЭО/ЭО-34 - Генератор AlexPulse v13 (сборка 1.0)/проги/AP13 controller -ST/AP13c03/MBSlave.h",
+		"/home/dvk/Работы/КД/Электрика Абрамовского/ЭО/ЭО-34 - Генератор AlexPulse v13 (сборка 1.0)/проги/AP13 controller -ST/AP13c03/MBSlave.c",
+		"/home/dvk/Работы/КД/Электрика Абрамовского/ЭО/ЭО-34 - Генератор AlexPulse v13 (сборка 1.0)/проги/AP13 controller -ST/AP13c03/Makefile",
+		"/home/dvk/Работы/КД/Электрика Абрамовского/ЭО/ЭО-34 - Генератор AlexPulse v13 (сборка 1.0)/проги/AP13 controller -ST/AP13c03/settings.h",
+		"/home/dvk/Работы/КД/Электрика Абрамовского/ЭО/ЭО-34 - Генератор AlexPulse v13 (сборка 1.0)/проги/AP13 controller -ST/AP13c02/Makefile",
+		"/home/dvk/Работы/КД/Электрика Абрамовского/ЭО/ЭО-34 - Генератор AlexPulse v13 (сборка 1.0)/проги/AP13 controller -ST/AP13c02/uart.d",
+		"/home/dvk/Работы/КД/Электрика Абрамовского/ЭО/ЭО-34 - Генератор AlexPulse v13 (сборка 1.0)/проги/AP13 controller -ST/AP13c02/uart.h",
+		"/home/dvk/Работы/КД/Электрика Абрамовского/ЭО/ЭО-34 - Генератор AlexPulse v13 (сборка 1.0)/проги/AP13 controller -ST/AP13c02/uart.c",
+		"/home/dvk/Работы/КД/Электрика Абрамовского/ЭО/ЭО-34 - Генератор AlexPulse v13 (сборка 1.0)/проги/AP13 controller -ST/AP13c02/MBSlave.h",
+		"/home/dvk/c/AP13c1 - жму кнопку горит индикатор/main.d",
+		"/home/dvk/test5/main.c",
+		"/home/dvk/Работы/КД/Электрика Абрамовского/ЭО/ЭО-34 - Генератор AlexPulse v13 (сборка 1.0)/проги/AP13 controller/Работающие программы/01 - нажимаю кнопку горит лампа/AP13b1e3_v1/AP13b1e3_v1/AP13b1e3_v1.cpp",
+		"/home/dvk/Работы/КД/Электрика Абрамовского/НО-389 (Дубна2)/prog/tmp/PLC_PRG.EXP",
+		"/home/dvk/Работы/КД/Электрика Абрамовского/НО-389 (Дубна2)/prog/tmp/Конфигурация ПЛК.EXP",
+		"/media/dvk/USB_FLASH/LOG_17_05.TXT",
+		"/home/dvk/Частные/с флешки/FW_UF_TEMP_SENS/user/menu.c",
+		"/home/dvk/Частные/с флешки/FW_UF_TEMP_SENS/user/main.c",
+		"/home/dvk/Работы/прога/s24-0.5/Makefile",
+		"/home/dvk/Работы/КД/Электрика Абрамовского/ЭО/ЭО-34 - Генератор AlexPulse v13 (сборка 1.0)/проги/AP13b1 - dimmer/AP13B1E1_v4/AP13B1E1_v1.c",
+		"/home/dvk/test5/main.bin",
+		"/home/dvk/.config/sublime-text-3/Packages/User/Package Control.sublime-settings",
+		"/home/dvk/.config/sublime-text-3/Packages/AVR/SublimeAVR.sublime-settings",
+		"/home/dvk/.config/sublime-text-3/Packages/C99/C99.sublime-settings",
+		"/home/dvk/Работы/КД/Электрика Абрамовского/ЭО/ЭО-34 - Генератор AlexPulse v13 (сборка 1.0)/проги/AP13b1 - dimmer/AP13B1E1_v3/AP13B1E1_v1.c"
+	],
+	"find":
+	{
+		"height": 29.0
+	},
+	"find_in_files":
+	{
+		"height": 108.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"PC2",
+			"UartBuf1"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 29.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.cc":
+	{
+		"height": 112.0
+	},
+	"output.exec":
+	{
+		"height": 185.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "SublimeAVR",
+	"project": "SublimeAVR.sublime-project",
+	"replace":
+	{
+		"height": 54.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 209.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

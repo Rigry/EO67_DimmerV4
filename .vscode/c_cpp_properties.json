@@ -1,0 +1,70 @@
+{
+    "configurations": [
+        {
+            "name": "Mac",
+            "includePath": [
+                "${workspaceRoot}",
+                "/usr/include",
+                "/usr/local/include"
+            ],
+            "defines": [],
+            "browse": {
+                "path": [
+                    "/usr/include",
+                    "/usr/local/include"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            }
+        },
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceRoot}",
+                "/usr/include/x86_64-linux-gnu/c++/5.4.0",
+                "/usr/include/c++/5.4.0",
+                "/usr/local/include",
+                "/usr/lib/clang/3.8.0/include",
+                "/usr/include/x86_64-linux-gnu",
+                "/usr/include",
+                //пути авр
+                "/usr/avr/include", 
+                "/usr/lib/avr/include", 
+                "/usr/lib/gcc/avr/4.8.1/include", 
+                "/usr/lib/gcc/avr/4.8.1/include-fixed", 
+                "/usr/lib/avr/include/avr"
+            ],
+            "defines": [],
+            "browse": {
+                "path": [
+                    "/usr/include/x86_64-linux-gnu/c++/5.4.0",
+                    "/usr/include/c++/5.4.0",
+                    "/usr/local/include",
+                    "/usr/lib/clang/3.8.0/include",
+                    "/usr/include/x86_64-linux-gnu",
+                    "/usr/include"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            }
+        },
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceRoot}",
+                "C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/include"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE"
+            ],
+            "browse": {
+                "path": [
+                    "C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/include/*"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            }
+        }
+    ]
+}

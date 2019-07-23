@@ -1,0 +1,638 @@
+Archive member included to satisfy reference by file (symbol)
+
+/usr/lib/gcc/avr/4.9.2/avr4/libgcc.a(_udivmodsi4.o)
+                              Userlib/uart.o (__udivmodsi4)
+/usr/lib/gcc/avr/4.9.2/avr4/libgcc.a(_exit.o)
+                              /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr4/crtatmega8.o (exit)
+/usr/lib/gcc/avr/4.9.2/avr4/libgcc.a(_copy_data.o)
+                              main.o (__do_copy_data)
+/usr/lib/gcc/avr/4.9.2/avr4/libgcc.a(_clear_bss.o)
+                              main.o (__do_clear_bss)
+
+Allocating common symbols
+Common symbol       size              file
+
+EEPROMbuf           0x6               main.o
+IntFlagMain         0x1               main.o
+IntFlagRecUART      0x1               main.o
+UDRbuf              0x1               main.o
+T_work_incr         0x2               main.o
+IntFlagTransUART    0x1               main.o
+ModbusAdr           0x2               main.o
+IntFlagZero         0x1               main.o
+stMBRegs            0x58              main.o
+stUART              0x67              main.o
+T_work              0x2               main.o
+IntFlagEndMB        0x1               main.o
+stEEPROM            0x6               main.o
+
+Discarded input sections
+
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr4/crtatmega8.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr4/crtatmega8.o
+ .text          0x0000000000000000        0x0 main.o
+ .data          0x0000000000000000        0x0 main.o
+ .bss           0x0000000000000000        0x0 main.o
+ .text          0x0000000000000000        0x0 Userlib/uart.o
+ .data          0x0000000000000000        0x0 Userlib/uart.o
+ .bss           0x0000000000000000        0x0 Userlib/uart.o
+ .text          0x0000000000000000        0x0 Userlib/MBSlave.o
+ .data          0x0000000000000000        0x0 Userlib/MBSlave.o
+ .bss           0x0000000000000000        0x0 Userlib/MBSlave.o
+ .text.crc16    0x0000000000000000       0x3e Userlib/MBSlave.o
+ .avr.prop      0x0000000000000000       0x16 Userlib/MBSlave.o
+ .text          0x0000000000000000        0x0 Userlib/eeprom.o
+ .data          0x0000000000000000        0x0 Userlib/eeprom.o
+ .bss           0x0000000000000000        0x0 Userlib/eeprom.o
+ .text.EEPROM_read
+                0x0000000000000000        0xe Userlib/eeprom.o
+ .text.EEPROM_write
+                0x0000000000000000       0x10 Userlib/eeprom.o
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr4/libgcc.a(_udivmodsi4.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr4/libgcc.a(_udivmodsi4.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr4/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr4/libgcc.a(_udivmodsi4.o)
+ .text.libgcc   0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr4/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr4/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr4/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr4/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr4/libgcc.a(_udivmodsi4.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr4/libgcc.a(_exit.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr4/libgcc.a(_exit.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr4/libgcc.a(_exit.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr4/libgcc.a(_exit.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr4/libgcc.a(_exit.o)
+ .text.libgcc   0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr4/libgcc.a(_exit.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr4/libgcc.a(_exit.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr4/libgcc.a(_exit.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr4/libgcc.a(_exit.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr4/libgcc.a(_exit.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr4/libgcc.a(_copy_data.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr4/libgcc.a(_copy_data.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr4/libgcc.a(_copy_data.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr4/libgcc.a(_copy_data.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr4/libgcc.a(_copy_data.o)
+ .text.libgcc   0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr4/libgcc.a(_copy_data.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr4/libgcc.a(_copy_data.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr4/libgcc.a(_copy_data.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr4/libgcc.a(_copy_data.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr4/libgcc.a(_copy_data.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr4/libgcc.a(_clear_bss.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr4/libgcc.a(_clear_bss.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr4/libgcc.a(_clear_bss.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr4/libgcc.a(_clear_bss.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr4/libgcc.a(_clear_bss.o)
+ .text.libgcc   0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr4/libgcc.a(_clear_bss.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr4/libgcc.a(_clear_bss.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr4/libgcc.a(_clear_bss.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr4/libgcc.a(_clear_bss.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr4/libgcc.a(_clear_bss.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x0000000000000000 0x0000000000002000 xr
+data             0x0000000000800060 0x000000000000ffa0 rw !x
+eeprom           0x0000000000810000 0x0000000000010000 rw !x
+fuse             0x0000000000820000 0x0000000000000400 rw !x
+lock             0x0000000000830000 0x0000000000000400 rw !x
+signature        0x0000000000840000 0x0000000000000400 rw !x
+user_signatures  0x0000000000850000 0x0000000000000400 rw !x
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr4/crtatmega8.o
+LOAD main.o
+LOAD Userlib/uart.o
+LOAD Userlib/MBSlave.o
+LOAD Userlib/eeprom.o
+LOAD /usr/lib/gcc/avr/4.9.2/avr4/libgcc.a
+LOAD /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr4/libm.a
+START GROUP
+LOAD /usr/lib/gcc/avr/4.9.2/avr4/libgcc.a
+LOAD /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr4/libm.a
+LOAD /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr4/libc.a
+LOAD /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr4/libatmega8.a
+END GROUP
+                0x0000000000002000                __TEXT_REGION_LENGTH__ = DEFINED (__TEXT_REGION_LENGTH__)?__TEXT_REGION_LENGTH__:0x2000
+                0x000000000000ffa0                __DATA_REGION_LENGTH__ = DEFINED (__DATA_REGION_LENGTH__)?__DATA_REGION_LENGTH__:0xffa0
+                0x0000000000010000                __EEPROM_REGION_LENGTH__ = DEFINED (__EEPROM_REGION_LENGTH__)?__EEPROM_REGION_LENGTH__:0x10000
+                0x0000000000000400                __FUSE_REGION_LENGTH__ = DEFINED (__FUSE_REGION_LENGTH__)?__FUSE_REGION_LENGTH__:0x400
+                0x0000000000000400                __LOCK_REGION_LENGTH__ = DEFINED (__LOCK_REGION_LENGTH__)?__LOCK_REGION_LENGTH__:0x400
+                0x0000000000000400                __SIGNATURE_REGION_LENGTH__ = DEFINED (__SIGNATURE_REGION_LENGTH__)?__SIGNATURE_REGION_LENGTH__:0x400
+                0x0000000000000400                __USER_SIGNATURE_REGION_LENGTH__ = DEFINED (__USER_SIGNATURE_REGION_LENGTH__)?__USER_SIGNATURE_REGION_LENGTH__:0x400
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x0000000000000000      0xdc4
+ *(.vectors)
+ .vectors       0x0000000000000000       0x26 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr4/crtatmega8.o
+                0x0000000000000000                __vectors
+ *(.vectors)
+ *(.progmem.gcc*)
+ .progmem.gcc_sw_table.MBSlave
+                0x0000000000000026       0x16 Userlib/MBSlave.o
+                0x000000000000003c                . = ALIGN (0x2)
+                0x000000000000003c                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x000000000000003c        0x0 linker stubs
+ *(.trampolines*)
+                0x000000000000003c                __trampolines_end = .
+ *libprintf_flt.a:*(.progmem.data)
+ *libc.a:*(.progmem.data)
+ *(.progmem*)
+                0x000000000000003c                . = ALIGN (0x2)
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x000000000000003c                __ctors_start = .
+ *(.ctors)
+                0x000000000000003c                __ctors_end = .
+                0x000000000000003c                __dtors_start = .
+ *(.dtors)
+                0x000000000000003c                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x000000000000003c        0x0 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr4/crtatmega8.o
+                0x000000000000003c                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x000000000000003c        0xc /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr4/crtatmega8.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x0000000000000048       0x16 /usr/lib/gcc/avr/4.9.2/avr4/libgcc.a(_copy_data.o)
+                0x0000000000000048                __do_copy_data
+ .init4         0x000000000000005e       0x10 /usr/lib/gcc/avr/4.9.2/avr4/libgcc.a(_clear_bss.o)
+                0x000000000000005e                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x000000000000006e        0x4 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr4/crtatmega8.o
+ *(.init9)
+ *(.text)
+ .text          0x0000000000000072        0x2 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr4/crtatmega8.o
+                0x0000000000000072                __vector_12
+                0x0000000000000072                __bad_interrupt
+                0x0000000000000072                __vector_17
+                0x0000000000000072                __vector_7
+                0x0000000000000072                __vector_5
+                0x0000000000000072                __vector_4
+                0x0000000000000072                __vector_2
+                0x0000000000000072                __vector_15
+                0x0000000000000072                __vector_8
+                0x0000000000000072                __vector_10
+                0x0000000000000072                __vector_16
+                0x0000000000000072                __vector_18
+                0x0000000000000074                . = ALIGN (0x2)
+ *(.text.*)
+ .text.startup.main
+                0x0000000000000074      0x44c main.o
+                0x0000000000000074                main
+ .text.__vector_1
+                0x00000000000004c0       0x1e main.o
+                0x00000000000004c0                __vector_1
+ .text.__vector_6
+                0x00000000000004de       0x2a main.o
+                0x00000000000004de                __vector_6
+ .text.__vector_9
+                0x0000000000000508       0x20 main.o
+                0x0000000000000508                __vector_9
+ .text.__vector_14
+                0x0000000000000528       0x28 main.o
+                0x0000000000000528                __vector_14
+ .text.__vector_11
+                0x0000000000000550       0x24 main.o
+                0x0000000000000550                __vector_11
+ .text.__vector_13
+                0x0000000000000574       0x1e main.o
+                0x0000000000000574                __vector_13
+ .text.__vector_3
+                0x0000000000000592       0x1e main.o
+                0x0000000000000592                __vector_3
+ .text.__vector_default
+                0x00000000000005b0       0x14 main.o
+                0x00000000000005b0                __vector_default
+ .text.UARTInit
+                0x00000000000005c4      0x1d0 Userlib/uart.o
+                0x00000000000005c4                UARTInit
+ .text.UARTRec  0x0000000000000794       0x52 Userlib/uart.o
+                0x0000000000000794                UARTRec
+ .text.UARTNextByTrans
+                0x00000000000007e6       0x4a Userlib/uart.o
+                0x00000000000007e6                UARTNextByTrans
+ .text.UARTStartByRec
+                0x0000000000000830       0x28 Userlib/uart.o
+                0x0000000000000830                UARTStartByRec
+ .text.UARTendMB
+                0x0000000000000858       0x14 Userlib/uart.o
+                0x0000000000000858                UARTendMB
+ .text.MBSlave  0x000000000000086c      0x43c Userlib/MBSlave.o
+                0x000000000000086c                MBSlave
+ .text.ReadEEPROM
+                0x0000000000000ca8       0x2c Userlib/eeprom.o
+                0x0000000000000ca8                ReadEEPROM
+ .text.UpdEEPROM
+                0x0000000000000cd4       0xa8 Userlib/eeprom.o
+                0x0000000000000cd4                UpdEEPROM
+ .text.libgcc.div
+                0x0000000000000d7c       0x44 /usr/lib/gcc/avr/4.9.2/avr4/libgcc.a(_udivmodsi4.o)
+                0x0000000000000d7c                __udivmodsi4
+                0x0000000000000dc0                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x0000000000000dc0        0x0 /usr/lib/gcc/avr/4.9.2/avr4/libgcc.a(_exit.o)
+                0x0000000000000dc0                exit
+                0x0000000000000dc0                _exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x0000000000000dc0        0x4 /usr/lib/gcc/avr/4.9.2/avr4/libgcc.a(_exit.o)
+ *(.fini0)
+                0x0000000000000dc4                _etext = .
+
+.data           0x0000000000800060       0x1c load address 0x0000000000000dc4
+                0x0000000000800060                PROVIDE (__data_start, .)
+ *(.data)
+ *(.data*)
+ *(.rodata)
+ *(.rodata*)
+ .rodata.CSWTCH.24
+                0x0000000000800060       0x1c main.o
+ *(.gnu.linkonce.d*)
+                0x000000000080007c                . = ALIGN (0x2)
+                0x000000000080007c                _edata = .
+                0x000000000080007c                PROVIDE (__data_end, .)
+
+.bss            0x000000000080007c       0xdb
+                0x000000000080007c                PROVIDE (__bss_start, .)
+ *(.bss)
+ *(.bss*)
+ .bss.ADCOut    0x000000000080007c        0x2 main.o
+                0x000000000080007c                ADCOut
+ .bss.Adr.1536  0x000000000080007e        0x2 Userlib/eeprom.o
+ *(COMMON)
+ COMMON         0x0000000000800080       0xd7 main.o
+                0x0000000000800080                EEPROMbuf
+                0x0000000000800086                IntFlagMain
+                0x0000000000800087                IntFlagRecUART
+                0x0000000000800088                UDRbuf
+                0x0000000000800089                T_work_incr
+                0x000000000080008b                IntFlagTransUART
+                0x000000000080008c                ModbusAdr
+                0x000000000080008e                IntFlagZero
+                0x000000000080008f                stMBRegs
+                0x00000000008000e7                stUART
+                0x000000000080014e                T_work
+                0x0000000000800150                IntFlagEndMB
+                0x0000000000800151                stEEPROM
+                0x0000000000800157                PROVIDE (__bss_end, .)
+                0x0000000000000dc4                __data_load_start = LOADADDR (.data)
+                0x0000000000000de0                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x0000000000800157        0x0
+                [!provide]                        PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                [!provide]                        PROVIDE (__noinit_end, .)
+                0x0000000000800157                _end = .
+                [!provide]                        PROVIDE (__heap_start, .)
+
+.eeprom         0x0000000000810000        0x0
+ *(.eeprom*)
+                0x0000000000810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.user_signatures
+ *(.user_signatures*)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x11
+ *(.comment)
+ .comment       0x0000000000000000       0x11 main.o
+                                         0x12 (size before relaxing)
+ .comment       0x0000000000000011       0x12 Userlib/uart.o
+ .comment       0x0000000000000011       0x12 Userlib/MBSlave.o
+ .comment       0x0000000000000011       0x12 Userlib/eeprom.o
+
+.note.gnu.avr.deviceinfo
+                0x0000000000000000       0x3c
+ .note.gnu.avr.deviceinfo
+                0x0000000000000000       0x3c /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr4/crtatmega8.o
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info
+ *(.debug_info .gnu.linkonce.wi.*)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line .debug_line.* .debug_line_end)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_macro
+ *(.debug_macro)
+OUTPUT(out/a.elf elf32-avr)
+LOAD linker stubs
+
+Cross Reference Table
+
+Символ                                      Файл
+ADCOut                                            main.o
+EEPROM_read                                       Userlib/eeprom.o
+EEPROM_write                                      Userlib/eeprom.o
+EEPROMbuf                                         Userlib/eeprom.o
+                                                  main.o
+IntFlagEndMB                                      main.o
+IntFlagMain                                       main.o
+IntFlagRecUART                                    main.o
+IntFlagTransUART                                  main.o
+IntFlagZero                                       main.o
+MBSlave                                           Userlib/MBSlave.o
+                                                  main.o
+ModbusAdr                                         main.o
+ReadEEPROM                                        Userlib/eeprom.o
+                                                  main.o
+T_work                                            main.o
+T_work_incr                                       main.o
+UARTInit                                          Userlib/uart.o
+                                                  main.o
+UARTNextByTrans                                   Userlib/uart.o
+                                                  main.o
+UARTRec                                           Userlib/uart.o
+                                                  main.o
+UARTStartByRec                                    Userlib/uart.o
+                                                  main.o
+UARTendMB                                         Userlib/uart.o
+                                                  main.o
+UDRbuf                                            main.o
+UpdEEPROM                                         Userlib/eeprom.o
+                                                  main.o
+__bad_interrupt                                   /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr4/crtatmega8.o
+__bss_end                                         /usr/lib/gcc/avr/4.9.2/avr4/libgcc.a(_clear_bss.o)
+__bss_start                                       /usr/lib/gcc/avr/4.9.2/avr4/libgcc.a(_clear_bss.o)
+__data_end                                        /usr/lib/gcc/avr/4.9.2/avr4/libgcc.a(_copy_data.o)
+__data_load_start                                 /usr/lib/gcc/avr/4.9.2/avr4/libgcc.a(_copy_data.o)
+__data_start                                      /usr/lib/gcc/avr/4.9.2/avr4/libgcc.a(_copy_data.o)
+__do_clear_bss                                    /usr/lib/gcc/avr/4.9.2/avr4/libgcc.a(_clear_bss.o)
+                                                  Userlib/eeprom.o
+                                                  main.o
+__do_copy_data                                    /usr/lib/gcc/avr/4.9.2/avr4/libgcc.a(_copy_data.o)
+                                                  main.o
+__heap_end                                        /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr4/crtatmega8.o
+__init                                            /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr4/crtatmega8.o
+__stack                                           /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr4/crtatmega8.o
+__udivmodsi4                                      /usr/lib/gcc/avr/4.9.2/avr4/libgcc.a(_udivmodsi4.o)
+                                                  Userlib/uart.o
+__vector_1                                        main.o
+                                                  /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr4/crtatmega8.o
+__vector_10                                       /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr4/crtatmega8.o
+__vector_11                                       main.o
+                                                  /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr4/crtatmega8.o
+__vector_12                                       /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr4/crtatmega8.o
+__vector_13                                       main.o
+                                                  /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr4/crtatmega8.o
+__vector_14                                       main.o
+                                                  /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr4/crtatmega8.o
+__vector_15                                       /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr4/crtatmega8.o
+__vector_16                                       /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr4/crtatmega8.o
+__vector_17                                       /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr4/crtatmega8.o
+__vector_18                                       /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr4/crtatmega8.o
+__vector_2                                        /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr4/crtatmega8.o
+__vector_3                                        main.o
+                                                  /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr4/crtatmega8.o
+__vector_4                                        /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr4/crtatmega8.o
+__vector_5                                        /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr4/crtatmega8.o
+__vector_6                                        main.o
+                                                  /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr4/crtatmega8.o
+__vector_7                                        /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr4/crtatmega8.o
+__vector_8                                        /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr4/crtatmega8.o
+__vector_9                                        main.o
+                                                  /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr4/crtatmega8.o
+__vector_default                                  main.o
+                                                  /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr4/crtatmega8.o
+__vectors                                         /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr4/crtatmega8.o
+_exit                                             /usr/lib/gcc/avr/4.9.2/avr4/libgcc.a(_exit.o)
+crc16                                             Userlib/MBSlave.o
+exit                                              /usr/lib/gcc/avr/4.9.2/avr4/libgcc.a(_exit.o)
+                                                  /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr4/crtatmega8.o
+main                                              main.o
+                                                  /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr4/crtatmega8.o
+stEEPROM                                          main.o
+stMBRegs                                          main.o
+stUART                                            main.o

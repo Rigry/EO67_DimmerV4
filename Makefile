@@ -2,7 +2,7 @@ OUTCAT=./out/
 TARGET=$(OUTCAT)a
 MMCU?=atmega8
 OPTIMIZE=-O2
-AVRDUDE_FLAGS?=-v -p m8 -P /dev/ttyACM2 -c avr910
+AVRDUDE_FLAGS?=-v -p m8 -P /dev/ttyACM0 -c avr910
 
 
 
@@ -70,4 +70,8 @@ clean_o:
 
 eepromread:
 	avrdude $(AVRDUDE_FLAGS) -Ueeprom:r:-:i
+
+write_fuse:
+	avrdude $(AVRDUDE_FLAGS) -U lfuse:w:0xFF:m
+	avrdude $(AVRDUDE_FLAGS) -U hfuse:w:0xC9:m
 

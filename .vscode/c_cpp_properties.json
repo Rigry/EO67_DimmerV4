@@ -15,7 +15,15 @@
                 ],
                 "limitSymbolsToIncludedHeaders": true,
                 "databaseFilename": ""
-            }
+            },
+            "macFrameworkPath": [
+                "/System/Library/Frameworks",
+                "/Library/Frameworks"
+            ],
+            "intelliSenseMode": "clang-x64",
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu18",
+            "cppStandard": "gnu++14"
         },
         {
             "name": "Linux",
@@ -27,11 +35,10 @@
                 "/usr/lib/clang/3.8.0/include",
                 "/usr/include/x86_64-linux-gnu",
                 "/usr/include",
-                //пути авр
-                "/usr/avr/include", 
-                "/usr/lib/avr/include", 
-                "/usr/lib/gcc/avr/4.8.1/include", 
-                "/usr/lib/gcc/avr/4.8.1/include-fixed", 
+                "/usr/avr/include",
+                "/usr/lib/avr/include",
+                "/usr/lib/gcc/avr/4.8.1/include",
+                "/usr/lib/gcc/avr/4.8.1/include-fixed",
                 "/usr/lib/avr/include/avr"
             ],
             "defines": [],
@@ -46,7 +53,11 @@
                 ],
                 "limitSymbolsToIncludedHeaders": true,
                 "databaseFilename": ""
-            }
+            },
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu18",
+            "cppStandard": "gnu++14"
         },
         {
             "name": "Win32",
@@ -64,7 +75,12 @@
                 ],
                 "limitSymbolsToIncludedHeaders": true,
                 "databaseFilename": ""
-            }
+            },
+            "intelliSenseMode": "msvc-x64",
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu18",
+            "cppStandard": "gnu++14"
         }
-    ]
+    ],
+    "version": 4
 }

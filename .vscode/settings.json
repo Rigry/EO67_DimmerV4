@@ -15,5 +15,8 @@
         "-I./Userlib/eeprom/",
         //задание микроконтроллера
         "-D__AVR_ATmega8__"
-    ]
+    ],
+    "files.associations": {
+        "mbslave.h": "c"
+    }
 }

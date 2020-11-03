@@ -61,6 +61,9 @@ $(TARGET).lst: $(TARGET).elf
 avrdude:
 	avrdude $(AVRDUDE_FLAGS) -e -U flash:w:$(TARGET).hex:i  
 
+erase:
+	avrdude $(AVRDUDE_FLAGS) -e
+
 clean:
 	-rm -f $(addprefix $(TARGET), .elf .hex .bin .lst .map)
 	-rm -f $(OBJECTS) $(OBJECTS:.o=.d)
@@ -72,6 +75,8 @@ eepromread:
 	avrdude $(AVRDUDE_FLAGS) -Ueeprom:r:-:i
 
 write_fuse:
-	avrdude $(AVRDUDE_FLAGS) -U lfuse:w:0xFF:m
+	avrdude $(AVRDUDE_FLAGS) -U lfuse:w:0x3F:m
 	avrdude $(AVRDUDE_FLAGS) -U hfuse:w:0xC9:m
 
+avrduderead:
+	avrdude $(AVRDUDE_FLAGS) -U flash:r:read.hex:i

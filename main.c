@@ -12,7 +12,8 @@
 #include <macros.h>
 #include <avr/io.h>
 #include <avr/interrupt.h>
-#include <avr/delay.h>
+// #include <avr/delay.h>
+#include <util/delay.h>
 #include <avr/sleep.h>
 #include <avr/wdt.h> 
 #include <stdbool.h>
@@ -23,7 +24,8 @@
 uint16_t T_work;											/*результат АЦП*/
 uint16_t T_work_incr; 									/*время включения порта*/
 uint16_t ADCOut=0;										/*буферная переменная, определяет элемент массива*/
-uint16_t ModbusAdr;										/*адрес MB*/
+uint16_t ModbusAdr;	
+uint16_t Hard_address = 40;									/*адрес MB*/
 struct MBRegSt stMBRegs;
 volatile struct EEPROMst stEEPROM;
 struct UartBufSt stUART;
@@ -77,7 +79,7 @@ int main(void)
 		
 	ReadEEPROM(&stEEPROM);
 	if (stEEPROM.mbadr==0xFFFF){
-		stEEPROM.mbadr=1;
+		stEEPROM.mbadr=Hard_address;
 		stEEPROM.DevN=0;
 		stEEPROM.uartset=0;
 //		for (uint16_t i=0;i<QTY_OF_BYTES;i++){
@@ -105,50 +107,51 @@ int main(void)
 		
 	} else {
 		
-		ModbusAdr=stEEPROM.mbadr;
+		ModbusAdr=Hard_address;
 		UARTSet.CharacterSise = 8;
-		if (BitIsClear(stEEPROM.uartset, 0)) {
+		// if (BitIsClear(stEEPROM.uartset, 0)) {
 			UARTSet.EvenParity = none;
-		} else if (BitIsSet(stEEPROM.uartset, 1)) {
-			UARTSet.EvenParity = even;
-		} else {
-			UARTSet.EvenParity = odd;
-		}
+		// } else if (BitIsSet(stEEPROM.uartset, 1)) {
+			// UARTSet.EvenParity = even;
+		// } else {
+		// 	UARTSet.EvenParity = odd;
+		// }
 
-		UARTSet.StopBits = BitIsSet(stEEPROM.uartset, 2) ? 2 : 1;
-		uint8_t tmp8 = (stEEPROM.uartset >> 3 & 0b111);
-		switch (tmp8) {
-			case 0b000:
+		// UARTSet.StopBits = BitIsSet(stEEPROM.uartset, 2) ? 2 : 1;
+		UARTSet.StopBits = 1;
+		// uint8_t tmp8 = (stEEPROM.uartset >> 3 & 0b111);
+		// switch (tmp8) {
+			// case 0b000:
 				UARTSet.baudrate = BR9600;
-				break;
-			case 0b001:
-				UARTSet.baudrate = BR14400;
-				break;
-			case 0b010:
-				UARTSet.baudrate = BR19200;
-				break;
-			case 0b011:
-				UARTSet.baudrate = BR28800;
-				break;
-			case 0b100:
-				UARTSet.baudrate = BR38400;
-				break;
-			case 0b101:
-				UARTSet.baudrate = BR57600;
-				break;
-			case 0b110:
-				UARTSet.baudrate = BR76800;
-				break;
-			case 0b111:
-				UARTSet.baudrate = BR115200;
-				break;
-			default:
-				UARTSet.baudrate = BR9600;
-				break;
-		}
-		if (UARTSet.baudrate == BR19200) {
-			GLED_ON();
-		}
+			// 	break;
+			// case 0b001:
+			// 	UARTSet.baudrate = BR14400;
+			// 	break;
+			// case 0b010:
+			// 	UARTSet.baudrate = BR19200;
+			// 	break;
+			// case 0b011:
+			// 	UARTSet.baudrate = BR28800;
+			// 	break;
+		// 	case 0b100:
+		// 		UARTSet.baudrate = BR38400;
+		// 		break;
+		// 	case 0b101:
+		// 		UARTSet.baudrate = BR57600;
+		// 		break;
+		// 	case 0b110:
+		// 		UARTSet.baudrate = BR76800;
+		// 		break;
+		// 	case 0b111:
+		// 		UARTSet.baudrate = BR115200;
+		// 		break;
+		// 	default:
+		// 		UARTSet.baudrate = BR9600;
+		// 		break;
+		// }
+		// if (UARTSet.baudrate == BR19200) {
+		// 	GLED_ON();
+		// }
 	}
 	UARTInit(UARTSet);
 
@@ -168,8 +171,8 @@ int main(void)
 	/*разрешение работы АЦП, разрешение прерывания, частота F_CPU/16*/
 	ADCSRA|=(1<<ADEN)|(1<<ADIE)|(1<<ADPS2);
 	/*инициализация спящего режима*/ 
-	/*	set_sleep_mode(SLEEP_MODE_IDLE); /*режим сна*/
-	/*	sleep_enable();		/*разрешаем сон*/
+	/*	set_sleep_mode(SLEEP_MODE_IDLE); режим сна*/
+	/*	sleep_enable();		разрешаем сон*/
 	sei();				/*разрешаем прерывания*/
 	    
 	while(1) {
